@@ -4,7 +4,6 @@ import * as Yup from 'yup';
 import Input from "./Input";
 
 function callLoginApi(values) {
-  console.log("post", values.email, values.Password)
 }
 const schema = Yup.object().shape({
   email: Yup.string().email().required(),

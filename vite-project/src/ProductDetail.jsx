@@ -12,7 +12,6 @@ import Loading from "./Loading";
 function ProductDetail({onAddToCard}) {
 
   const id = +(useParams().id);
-  console.log("useParams", id);
   const [product, setProduct]=useState();
   const [loading, setLoading]=useState(true);
   const [count, setCount]=useState(1);

@@ -9,7 +9,6 @@ function ProductListPage() {
   const [sort, setSort] = useState('default');
   const [productList, setProductList] = useState([]);
   const [loading, setLoading] = useState(true);
-  console.log(productList);
 
   useEffect(function() {
     const xyz = getProductList();
@@ -76,3 +75,4 @@ function ProductListPage() {
 }
 
 export default ProductListPage;
+

@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Product({ thumbnail, category, title, rating, price, id }) {
-  console.log(title);
 	return (
 		<div className="p-2 max-w-xs rounded-md ">
       <div className=" w-full aspect-square">

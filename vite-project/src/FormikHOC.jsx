@@ -5,7 +5,6 @@ function FormikHOC(IncomingComponent) {
   function OutgoingComponent({ name, ...rest }) {
     const field = useField(name);
 
-    console.log(name, field);
 
     const [data, meta] = field;
 

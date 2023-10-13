@@ -2,7 +2,6 @@ import React from "react";
 import Product from "./Product";
 
 function ProductList({ object}) {
-  console.log(object);
   return (
     <div className="flex flex-wrap gap-2">
       
